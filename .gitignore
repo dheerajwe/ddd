@@ -1,0 +1,16 @@
+# Ignore backend and frontend .env files
+dopamine-dashboard/backend/.env
+dopamine-dashboard/frontend/.env
+
+# Ignore node_modules
+dopamine-dashboard/backend/node_modules
+dopamine-dashboard/frontend/node_modules
+dopamine-dashboard/.env
+
+
+dopamine-dashboard/backend/node_modules/
+dopamine-dashboard/frontend/node_modules/
+
+
+# General node_modules ignore
+node_modules/
