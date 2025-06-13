@@ -1,18 +1,82 @@
-# Dopamine Driving through Dashboard
-"We’re excited to embark on this amazing project, where we aim to leverage dashboard-style interfaces to make learning more engaging, enjoyable, and enriching. By using intuitive, interactive dashboards, we can transform the learning experience, making it more immersive and motivating for learners."
+# Dopamine Dashboard
 
-## Overview
-The version -0 was completed using simple Google Sheets and Google App Scripts.
+A modern web application built with React and Vite, featuring a beautiful and responsive user interface.
 
-**Dopamine Driving through Dashboard** is a unified visualisation platform developed at the **Dhananjaya Lab for Education Design (DLED)**. The primary goal of this project is to design and deliver intuitive dashboards for all ongoing and future projects within the lab, enabling data-driven insights and dopamine-rich user experiences.
+## Project Structure
 
-## Tech Stack
+The project is organized into two main directories:
+- `frontend/`: Contains the React application
+- `backend/`: Backend server (in development)
 
-This project is built using the **MERN stack**:
-- **MongoDB** – NoSQL database for storing and retrieving project data.
-- **Express.js** – Web framework for Node.js to manage backend APIs.
-- **React.js** – Frontend library for building interactive dashboard components.
-- **Node.js** – Runtime environment for executing JavaScript on the server.
+## Frontend Features
 
-## Folder Structure (DDD-Aligned)
+### Technology Stack
+- React with Vite as the build tool
+- Modern UI components and styling
+- Responsive design
+- Theme customization support
 
+### Key Components
+- Header component with navigation
+- Dashboard header with user interface elements
+- Custom UI components library
+- Theme system for consistent styling
+
+### Project Organization
+```
+frontend/
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── pages/         # Page components
+│   ├── contexts/      # React contexts
+│   ├── hooks/         # Custom React hooks
+│   ├── utils/         # Utility functions
+│   ├── lib/           # Library code
+│   ├── assets/        # Static assets
+│   └── routes.jsx     # Application routing
+```
+
+## Getting Started
+
+### Prerequisites
+- Node.js (latest LTS version recommended)
+- npm (comes with Node.js)
+
+### Installation
+
+1. Clone the repository
+2. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+The application will be available at `http://localhost:5173`
+
+## Development Status
+
+The project is currently in active development with the following features implemented:
+- Basic project structure and setup
+- Frontend development environment with Vite
+- Core UI components
+- Theme system
+- Routing setup
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a new Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 
