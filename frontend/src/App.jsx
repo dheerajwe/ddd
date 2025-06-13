@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { ThemeProvider } from '@mui/material/styles';
@@ -10,6 +8,7 @@ import StudentDashboard from './pages/StudentDashboard';
 import Dashboard from './pages/student/Dashboard';
 import Quiz from './pages/student/Quiz';
 import MeetResults from './pages/student/MeetResults';
+import OnlineMeet from './pages/student/OnlineMeet';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 
 // Protected Route Component
@@ -64,6 +63,14 @@ function App() {
               element={
                 <ProtectedRoute>
                   <MeetResults />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/student/online-meet"
+              element={
+                <ProtectedRoute>
+                  <OnlineMeet />
                 </ProtectedRoute>
               }
             />
