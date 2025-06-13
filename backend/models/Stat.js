@@ -41,7 +41,7 @@ const statSchema = new mongoose.Schema({
     score: Number,
     questionsAttempted: Number,
     correctAnswers: Number,
-    timeSpent: Number // in minutes
+    timeSpent: Number // in minu
   }],
   achievements: [{
     name: String,

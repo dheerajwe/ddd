@@ -22,7 +22,7 @@ const meetAttemptSchema = new mongoose.Schema({
     },
     selectedOption: Number,
     isCorrect: Boolean,
-    timeTaken: Number // in seconds
+    timeTaken: Number 
   }],
   startTime: {
     type: Date,

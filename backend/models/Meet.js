@@ -7,7 +7,7 @@
 const mongoose = require('mongoose');
 
 const meetSchema = new mongoose.Schema({
-    // Basic quiz information
+    // Basic 
     title: {
         type: String,
         required: true,

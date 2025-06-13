@@ -12,7 +12,7 @@ const leaderboardEntrySchema = new mongoose.Schema({
     default: 0
   },
   timeTaken: {
-    type: Number,  // in seconds
+    type: Number,  
     required: true
   },
   correctAnswers: {

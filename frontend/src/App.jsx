@@ -1,5 +1,4 @@
-// App.jsx
-// Main entry point for the React application. Handles routing and global layout.
+
 
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';

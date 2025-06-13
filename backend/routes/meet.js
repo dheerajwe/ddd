@@ -34,7 +34,7 @@ router.get('/', auth, async (req, res) => {
     }
 });
 
-// Get a specific meet by meetId (no auth needed for now)
+// Get a specific meet by meetId (no auth needed for n
 router.get('/:id', async (req, res) => {
     try {
         const meet = await Meet.findOne({ meetId: req.params.id }).populate('questions');

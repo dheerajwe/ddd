@@ -15,7 +15,7 @@ const StudentDashboard = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // If we're on the dashboard route, redirect to the main dashboard
+  // If we're on the dashboard route, redirect to 
   useEffect(() => {
     if (location.pathname === '/student/dashboard') {
       navigate('/student/dashboard');

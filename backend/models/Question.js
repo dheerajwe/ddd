@@ -24,7 +24,7 @@ const questionSchema = new mongoose.Schema({
         default: 10
     },
     timeLimit: {
-        type: Number, // in seconds
+        type: Number, 
         default: 600 // 10 minutes
     }
 }, {

@@ -6,7 +6,7 @@ const UserPerformance = require('../models/UserPerformance');
 const Stat = require('../models/Stat');
 const auth = require('../middleware/auth');
 
-// Get all meets
+// 
 router.get('/', auth, async (req, res) => {
   try {
     const meets = await Meet.find()

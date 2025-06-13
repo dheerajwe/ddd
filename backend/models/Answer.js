@@ -17,7 +17,7 @@ const answerSchema = new mongoose.Schema({
     },
     timeTaken: {
         type: Number,
-        required: true // in seconds
+        required: true 
     },
     isCorrect: {
         type: Boolean,

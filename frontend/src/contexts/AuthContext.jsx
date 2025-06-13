@@ -1,5 +1,4 @@
-// AuthContext.jsx
-// Provides authentication context and logic for the application.
+
 
 import { createContext, useContext, useState, useCallback, useEffect, useRef } from 'react';
 import axios from '../utils/axios';
