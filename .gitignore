@@ -1,2 +1,5 @@
 node_modules
 *.env
+dopamine-dashboard/backend/.env
+dopamine-dashboard/frontend/.env
+node_modules/
